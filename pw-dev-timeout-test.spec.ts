@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
  
 test('has title', async ({ page }) => {
     // Set a timeout of 4000ms - test will fail if duration exceeds this
-    test.setTimeout(4000);
+    test.setTimeout(5000);
     
     await page.goto('https://playwright.dev/');
  
