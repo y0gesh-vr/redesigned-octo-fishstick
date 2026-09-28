@@ -1,4 +1,4 @@
-import { test, expect, Page } from 'playwright/test';
+import { test, expect, Page } from '@playwright/test';
 
 const BASE_URL = process.env.BASE_URL ?? 'https://ascent-support.apica.io/login';
 const AUTH_ERROR_TEXT = process.env.AUTH_ERROR_TEXT ?? 'Invalid username or password';
