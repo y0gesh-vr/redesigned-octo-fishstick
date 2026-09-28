@@ -13,9 +13,4 @@ export default defineConfig({
             timeout: 30_000,         // browser launch
         },
     },
-    // webServer: {
-    //     command: 'npm run start',
-    //     url: 'http://localhost:3000',
-    //     timeout: 120_000,          // dev server startup
-    // },
 });
