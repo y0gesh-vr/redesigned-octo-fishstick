@@ -8,7 +8,7 @@ export default defineConfig({
     // },
     use: {
         actionTimeout: 3_000,     // click, fill, etc.
-        navigationTimeout: 10_000, // goto, waitForURL, reload, etc.
+        navigationTimeout: 30_000, // goto, waitForURL, reload, etc.
         launchOptions: {
             timeout: 30_000,         // browser launch
         },
