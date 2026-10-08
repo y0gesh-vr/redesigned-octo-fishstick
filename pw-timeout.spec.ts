@@ -2,7 +2,7 @@ import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
     timeout: 120_000,            // per-test timeout (also applies to hooks and fixtures)
-    globalTimeout: 30_000, // whole run
+    globalTimeout: 130_000, // whole run
     // expect: {
     //     timeout: 5_000,           // auto-retrying assertions
     // },
